@@ -352,14 +352,25 @@
 .image_develop {
     margin-right: 60px;
 }
+
+.project_description span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    max-width: 479px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
 .plus_span {
     list-style: url('../img/plus.svg');
+    margin-left: 10px;
 }
 .span_description {
     margin-bottom: 5px;
 }
 .span_description:last-child {
     list-style: url('../img/minus.svg');
+
 }
 
 /* calculator*/
@@ -932,7 +943,7 @@
         margin: auto;
     }
     .image_develop {
-        margin-right: 40px;
+        margin-right: 30px;
     }
 }
 
@@ -957,7 +968,9 @@
     .image_box_tsekh {
         width: 532px;
     }
+   .project_description p {
 
+   }
     .description section, .stack_technology, .blocks_develop, .block_developers,
     .calc_project_form {
         flex-direction: column;
