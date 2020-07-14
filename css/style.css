@@ -1,6 +1,5 @@
-/* header */
 * {
-    font-family: Gilroy;
+    font-family: 'Gilroy';
     color: #333333;
 }
 .header {
@@ -344,8 +343,8 @@
 .blocks_develop {
     display: flex;
     align-items: center;
-
 }
+
 .project_description {
     max-width: 490px;
     height: max-content;
@@ -353,22 +352,7 @@
 .image_develop {
     margin-right: 60px;
 }
-.project_description p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
-    margin-left: 0;
-    margin-bottom: 15px;
-}
-.project_description span {
-    display: flex;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 27px;
-}
+
 .blue_font{
     color:  #3454F5;
     padding-right: 2%;
@@ -378,20 +362,14 @@
     padding-right: 2%;
 }
 .plus_span {
-    display: flex;
-    align-items: center;
-}
-.plus {
-    width: 16px;
-    height: 280px;
+    list-style: url('../img/plus.svg');
 }
 .span_description {
-    height: 270px;
-    margin-left: 14px;
+    margin-bottom: 5px;
 }
-.span_description:first-child {
-    margin-bottom: 10px;
-    margin-top: 6px;
+.span_description:last-child {
+    list-style: url('../img/minus.svg');
+
 }
 
 /* calculator*/
@@ -1050,7 +1028,8 @@
 @media screen and (max-width: 578px) { 
     .header, .description_site, .image_develop, .image_service,
     .warning_price, .left_information h1, .information_company_, 
-    .project_description span, .price_development h3 {
+    .project_description span, .price_development h3, 
+    .case_block {
         max-width: 90%;
     }
     .main, .footer_group, .image_comp {
@@ -1092,11 +1071,11 @@
         padding: 0;
         max-width: 335px;
     }
-    .button_price_two, .stack {
+    .button_price_two, .stack, .case_block {
         margin: auto;
     }
      .right_information, .img_blocks, .img_light, .img_dice, .img_cash,
-    .group_developers, .stack {
+    .group_developers, .stack, .img_case {
         display: none;
     }
     .description_site h2, .information_company_, .description_development p, 
@@ -1110,7 +1089,6 @@
     .image_box_tsekh, .img_develop, .stack {
         max-width: 90%;
         height: 445px;
-        /* width: 100%; */
         object-fit: contain;
     }
     .img_box {
@@ -1132,10 +1110,10 @@
     .project_description, .form_order, .optional_service {
         padding: 0 5px;
     }
-    .case_shop, .img_case {
+    /* .case_shop {
         height: max-content;
         object-fit: contain;
-    }
+    } */
     .price_development {
         margin-top: 135px;
         padding-left: 0;
@@ -1192,6 +1170,9 @@
     .block_developers {
         margin-top: 0;
     }
+    .info_img_service {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1226,9 +1207,7 @@
         font-size: 14px;
         line-height: 22px;
     }
-    .span_description {
-        height: 354px;
-    }
+   
     .project_description span {
         margin-bottom: 14px;
     }
