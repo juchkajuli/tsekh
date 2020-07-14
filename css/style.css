@@ -352,15 +352,6 @@
 .image_develop {
     margin-right: 60px;
 }
-
-.blue_font{
-    color:  #3454F5;
-    padding-right: 2%;
-}
-.red_font {
-    color: #E46868;
-    padding-right: 2%;
-}
 .plus_span {
     list-style: url('../img/plus.svg');
 }
@@ -369,7 +360,6 @@
 }
 .span_description:last-child {
     list-style: url('../img/minus.svg');
-
 }
 
 /* calculator*/
